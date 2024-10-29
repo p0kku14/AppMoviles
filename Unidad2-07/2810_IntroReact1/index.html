@@ -14,9 +14,10 @@
     <div id="root"></div>
 
     <script type="text/babel">
+    const saludar = (name = "valllllllalala")=> `hello,${name}!`;
     const divRoot= document.querySelector("#root");
     const h1Tag = <h1> hola mundo </h1>   
-    ReactDOM.render(h1Tag,divRoot) 
+    ReactDOM.render(saludar(),divRoot) 
     </script>
 
 </body>
